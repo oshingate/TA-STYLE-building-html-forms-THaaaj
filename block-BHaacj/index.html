@@ -20,16 +20,18 @@
     <header class="header">
       <div class="container2 flex">
         <div class="logo justify-left">
-          <img
-            class="flexible-img"
-            src="../block-BHaacj/assets/media/logo.png"
-            alt="logo"
-          />
-          <h2>Journey</h2>
+          <a href="#" class="flex brand"
+            ><img
+              class="flexible-img"
+              src="../block-BHaacj/assets/media/logo.png"
+              alt="logo"
+            />
+            <strong>Journey</strong>
+          </a>
         </div>
         <nav class="navs">
           <ul class="flex">
-            <li><a href="#">Home</a></li>
+            <li><a class="nav-active" href="#">Home</a></li>
             <li><a href="#">Top Destinations</a></li>
             <li><a href="#">Recommended Places</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -43,7 +45,7 @@
           <div class="hero__heading text-center align-center">
             <div>
               <h1>LET'S BEGIN</h1>
-              <img src="./assets/media/dots-3.png" alt="" />
+              <img src="./assets/media/dots-3.png" alt="dots" />
               <h4>We assist you to choose the best</h4>
               <span><i class="fas fa-chevron-down"></i></span>
               <div class="hero__content">
@@ -87,11 +89,11 @@
                 <form class="form2 flex" action="submit">
                   <div class="flex-25">
                     <label for="indate">Check in date</label>
-                    <input id="indate" type="text" placeholder="date" />
+                    <input id="indate" type="date" placeholder="date" />
                   </div>
                   <div class="flex-25">
                     <label for="outdate">Check out date</label>
-                    <input id="outdate" type="text" placeholder="date" />
+                    <input id="outdate" type="date" placeholder="date" />
                   </div>
                   <div class="flex-50">
                     <input
@@ -119,8 +121,24 @@
 
       <section class="places container">
         <div class="flex">
-          <div class="flex-50">
-            <img class="flexible-img" src="assets/media/tm-img-01.jpg" alt="" />
+          <div class="places-left-part flex-50">
+            <img
+              class="flexible-img"
+              src="assets/media/tm-img-01.jpg"
+              alt="img1"
+            />
+            <div class="nav-icon-container flex justify-right">
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+              </div>
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
           </div>
           <article class="block--pri flex-50">
             <h3>Europe's most visited places</h3>
@@ -142,13 +160,45 @@
             </p>
             <a href="#" class="btn btn-ter">Continue Reading</a>
           </article>
-          <div class="flex-50">
-            <img class="flexible-img" src="assets/media/tm-img-02.jpg" alt="" />
+          <div class="places-left-part flex-50">
+            <img
+              class="flexible-img"
+              src="assets/media/tm-img-02.jpg"
+              alt="2"
+            />
+            <div class="nav-icon-container flex justify-right">
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+              </div>
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="flex">
-          <div class="flex-50">
-            <img class="flexible-img" src="assets/media/tm-img-03.jpg" alt="" />
+          <div class="places-left-part flex-50">
+            <img
+              class="flexible-img"
+              src="assets/media/tm-img-03.jpg"
+              alt="3"
+            />
+            <div class="nav-icon-container flex justify-right">
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+              </div>
+              <div class="flex nav-icon-outer center">
+                <div class="nav-icon-inner flex center">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
           </div>
           <article class="block--pri flex-50">
             <h3>America's most visited places</h3>
@@ -166,7 +216,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/north-america.png"
-            alt=""
+            alt="north america"
             width="100%"
             height="150"
           />
@@ -176,7 +226,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/south-america.png"
-            alt=""
+            alt="south america "
             width="100%"
             height="150"
           />
@@ -186,7 +236,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/europe.png"
-            alt=""
+            alt="eoripe"
             width="100%"
             height="150"
           />
@@ -196,7 +246,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/asia.png"
-            alt=""
+            alt="asia"
             width="100%"
             height="150"
           />
@@ -206,7 +256,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/africa.png"
-            alt=""
+            alt="africa"
             width="100%"
             height="150"
           />
@@ -216,7 +266,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/australia.png"
-            alt=""
+            alt="australia"
             width="100%"
             height="150"
           />
@@ -226,7 +276,7 @@
           <img
             class="maps-img"
             src="../block-BHaacj/assets/media/antartica.png"
-            alt=""
+            alt="antarctica"
             width="100%"
             height="150"
           />
@@ -239,6 +289,7 @@
             <div class="flex-20">
               <img src="./assets/media/tm-img-06.jpg" alt="img 6" />
             </div>
+
             <div class="hotel-card__details flex-50 vertical-align">
               <h5>ASIA RESORT HOTEL</h5>
               <h6>Singapore</h6>
@@ -274,7 +325,7 @@
             </div>
             <div class="flex-30 justify-left map-pri">
               <div class="flex-20">
-                <img src="./assets/media/button-curve.png" alt="" />
+                <img src="./assets/media/button-curve.png" alt="curve btn" />
               </div>
               <div class="hotel-card__right flex-80 vertical-align">
                 <h3>$460</h3>
@@ -298,7 +349,7 @@
             </div>
             <div class="flex-30 justify-left map-pri">
               <div class="flex-20">
-                <img src="./assets/media/button-curve.png" alt="" />
+                <img src="./assets/media/button-curve.png" alt="curve btn" />
               </div>
               <div class="hotel-card__right flex-80 vertical-align">
                 <h3>$450</h3>
@@ -322,7 +373,7 @@
             </div>
             <div class="flex-30 justify-left map-pri">
               <div class="flex-20">
-                <img src="./assets/media/button-curve.png" alt="" />
+                <img src="./assets/media/button-curve.png" alt="curve btn" />
               </div>
               <div class="hotel-card__right flex-80 vertical-align">
                 <h3>$470</h3>
@@ -374,9 +425,9 @@
           </form>
         </div>
       </section>
-      <footer class="footer container text-center">
-        <small>copyright &copy; 2020 oshingate@gmail.com</small>
-      </footer>
     </main>
+    <footer class="footer container text-center">
+      <small>copyright &copy; 2020 oshingate@gmail.com</small>
+    </footer>
   </body>
 </html>
